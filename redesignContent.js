@@ -5,6 +5,11 @@ function redesignContent(){
 	content.style.marginTop = height+"px";
 }
 
+function smoothScroll(id){
+	var element = document.querySelector(id);
+	element.scrollIntoView({ behavior: 'smooth'});
+}
+
 window.onresize = function(event) {
    	redesignContent();
 };
