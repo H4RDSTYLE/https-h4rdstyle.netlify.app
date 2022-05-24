@@ -13,3 +13,8 @@ function smoothScroll(id){
 window.onresize = function(event) {
    	redesignContent();
 };
+
+
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
