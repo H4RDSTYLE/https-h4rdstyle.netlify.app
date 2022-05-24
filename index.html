@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data/favicon.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+	<title>Hugo Melón Portafolio</title>
+	<script src="redesignContent.js"></script>
+</head>
+<body>
+	<div id="callToAction">
+		<video autoplay muted loop id="backgroundVideo">
+		  <source src="data/programmingBackground.mp4" type="video/mp4">
+		</video>
+		<div id="textoCallToAction">
+			<h1>Hi, I'm Hugo. I develop and build websites :)</h1>
+			<nav id="botones">
+				<ul>
+					<li><button onclick="window.location.href='#about'">About Me</button></li>
+					<li><button onclick="window.location.href='#clients'">Clients</button></li>
+					<li><button onclick="window.location.href='#contacto'">Find Me!</button></li>
+				</ul>
+			<nav>
+		</div>
+	</div>
+	<div id="contenido">
+		<div id="about">
+			<h1>Hi, I'm Hugo. Nice to meet you.</h1>
+			<p class="parrafo-centrado">I am a fullstack developer from Spain which offers his services as a freelancer. Since I graduated 2 years ago I have been working remotely for diverse companies and clients.<br/>
+			During my journey I've learned a lot about clean coding and coding patterns.<br/>
+			I'm a curious person which is always learning new technologies and improving its way to code.
+			Currently, these are the technologies with which I feel comfortable and believe that I can generate value to my clients.</p>
+			<div id="tecnologias">
+				<div class="halfCentered" id="frontend">
+					<img src="data/frontend.svg"/>
+					<h3 class="colorBlack">Frontend</h3>
+					<ul>
+						<li><img src="data/htmlLogo.png" title="HTML"/></li>
+						<li><h6 class="colorBlack">HTML</h6></li>
+						<li><img src="data/cssLogo.png"  title="CSS"/></li>
+						<li><h6 class="colorBlack">CSS</h6></li>
+						<li><img src="data/javascriptLogo.png" title="JavaScript"/></li>
+						<li><h6 class="colorBlack">JavaScript</h6></li>
+						<li><img src="data/reactNativeLogo.png" title="React Native"/></li>
+						<li><h6 class="colorBlack">React Native</h6></li>
+					</ul>
+				</div>
+				<div class="halfCentered" id="backend">
+				<img src="data/backendLogo.png"/>
+				<h3 class="colorBlack">Backend</h3>
+				<ul>
+					<li><img src="data/springbootLogo.png"  title="Java SpringBoot"/></li>
+					<li><h6 class="colorBlack">Java SpringBoot</h6></li>
+					<li><img src="data/nodejsLogo.png" title="Node JS"/></li>
+					<li><h6 class="colorBlack">Node JS</h6></li>
+					<li><img src="data/sqlLogo.png"  title="SQL"/></li>
+					<li><h6 class="colorBlack">SQL</h6></li>
+					<li><img src="data/mongodbLogo.png"  title="Mongo DB"/></li>
+					<li><h6 class="colorBlack">Mongo DB</h6></li>
+				</div>
+			</div>
+		</div>
+		<div id="clients">
+			<h1>Clients</h1>
+			<ul class="logo">
+				<li class="logo">
+					<img class="logo" src="data/CaixaBankLogo.png"/>
+				</li>
+				<li class="logo">
+					<img class="logo" src="data/telefonicaLogo.png"/>
+				</li>
+				<li class="logo">
+					<img class="logo" src="data/indraLogo.png"/>
+				</li>
+				<li class="logo">
+					<img class="logo" src="data/minsaitLogo.png"/>
+				</li>
+				<li class="logo">
+					<img class="logo" src="data/dxcLogo.png"/>
+				</li>
+			</ul>
+		</div>
+		<div id="contacto">
+			<h1>Contact Me</h1>
+			<ul class="contact">
+			<li class="contact"><a href="https://www.linkedin.com/in/hugomelon/" target="_blank" class="fa fa-linkedin socialButtons contact"></a></li>
+			<li class="contact"><a href="mailto:hugomelalvarez@gmail.com" class="fa fa-envelope-o socialButtons contact"></a></li>
+			</ul>
+		</div>
+	</div>
+	<script>redesignContent();</script>
+</body>
+</html>
